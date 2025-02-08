@@ -17,7 +17,7 @@ RUN npm install
 COPY . .
 
 # Expose RTMP and HTTP ports
-EXPOSE 1935 8000
+EXPOSE 1935 8080
 
 ENV FFMPEG_PATH='/usr/bin/ffmpeg'
 
